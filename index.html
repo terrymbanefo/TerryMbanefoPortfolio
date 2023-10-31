@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Terry Mbanefo - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Terry Mbanefo
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          tmbanefo@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://th.bing.com/th/id/R.3115cb7e680556ca2266ba86d661005e?rik=Sioh7vJhNek%2bWg&pid=ImgRaw&r=0" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Terry Mbanefo! <img src="https://th.bing.com/th/id/OIP.4xQ6AgE0rZJBmSjDB8-fUwAAAA?w=99&h=99&c=7&r=0&o=5&pid=1.7" width="60px"/>
+          </h1>
+          <p>
+            I am a passionate independent game developer with goals of creating engaging games.
+            I have worked on multiple games across different genres and platforms. 
+            I am an avid gamer and alaways strive to increase my knwoledge of industry topics, technologies and market trends to name a few.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+        
+
+        <!-- Add more skills here -->
+        <div class="skill">
+            <img src="https://th.bing.com/th/id/R.8cfb0b1e8ff474968ffd83a14e515ee4?rik=UgNAX0QZdvsydQ&pid=ImgRaw&r=0"/>
+            <h6>Unity</h6>
+            <p>6 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="https://th.bing.com/th/id/R.c8bf9bbb5d767ce095ed8d9d6f82722e?rik=MVe6lEdfLtSTgw&pid=ImgRaw&r=0"/>
+            <h6>Unreal Engine</h6>
+            <p>3 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="https://th.bing.com/th/id/OIP.zwDlWp10KS8w1xoLBOcjkwHaFj?pid=ImgDet&rs=1"/>
+            <h6>Android Studio</h6>
+            <p>3 years experience</p>
+          </div>  
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Swing Bowling</h3>
+            <ul>
+              <li>Developed and self published a mobile hyper casual game</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>LegendPay</h3>
+            <ul>
+              <li>Developed and deployed an app for Legend, an internet service provider</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Shoot Em Down</h3>
+            <ul>
+              <li>Created a PC based first person shooter</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Terry is also a great team player, always ready to collaborate with others to deliver projects on time and within budget.
+           His excellent communication skills, positive attitude, and ability to work under pressure make him a valuable addition to any development team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I am writing to highly recommend Terry for the game development position at your company. 
+          I have had the pleasure of working with Terry on several game development projects, and I can confidently say that he is one of the most talented and hardworking individuals in the industry.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Terry possesses a rare combination of creativity and technical expertise that makes him an exceptional game developer.
+           He is a master at designing engaging gameplay mechanics that provide a unique and memorable user experience.
+           Additionally, his ability to code complex systems is a testament to his technical. 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for the recommendation</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
